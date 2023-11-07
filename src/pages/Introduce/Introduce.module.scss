@@ -1,0 +1,13 @@
+.wrapper {
+    --top-value: 0px;
+}
+
+.menu-item {
+    color: var(--white);
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}

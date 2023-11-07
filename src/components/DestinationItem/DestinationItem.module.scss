@@ -1,0 +1,61 @@
+.wrapper {
+    margin-left: 8px;
+    color: var(--gray-blue);
+}
+
+.inner ~ .inner {
+    padding: 45px 0 25px 0;
+    border-top: 1px solid #e3e3e486;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+// Header
+.name {
+    font-size: 4.2rem;
+}
+
+.type {
+    font-style: italic;
+}
+
+// Image
+.img-main {
+    width: 800px;
+    height: 420px;
+}
+
+.img-sub {
+    max-width: 330px;
+    height: 420px;
+}
+
+.img-item {
+    width: 160px;
+    height: 136px;
+    margin-left: 5px;
+}
+
+// Information
+.info-text {
+    text-align: justify;
+}
+
+// Address
+
+// Facility
+.facilities {
+}
+
+// Rating
+.rating {
+}
+
+// Contact
+.contact {
+}

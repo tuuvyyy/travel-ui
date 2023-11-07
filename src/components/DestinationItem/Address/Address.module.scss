@@ -1,0 +1,70 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    max-width: 410px;
+
+    &.nearby {
+        border-right: 1px solid #e3e3e4e0;
+    }
+}
+
+.item ~ .item {
+    width: 335px;
+}
+
+.gps {
+    height: 250px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.address {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.address-icon {
+    margin-right: 10px;
+}
+
+.title {
+    margin-bottom: 8px;
+}
+
+// Place
+.places-item {
+    display: flex;
+    padding: 10px 0;
+}
+
+.icon {
+    font-size: 2.6rem;
+    width: 40px;
+}
+
+.main {
+    width: 230px;
+}
+
+.name {
+    margin-bottom: -4px;
+}
+
+.type {
+    font-size: 1.2rem;
+}
+
+.distance {
+    font-size: 1.4rem;
+    font-weight: 600;
+}

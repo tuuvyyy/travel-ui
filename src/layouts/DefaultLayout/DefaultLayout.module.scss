@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+.container {
+    width: var(--default-layout-width);
+    max-width: 100%;
+    margin-top: var(--default-layout-header-height);
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    height: var(--default-layout-container-height);
+}

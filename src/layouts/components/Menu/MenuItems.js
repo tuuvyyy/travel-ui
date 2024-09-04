@@ -3,14 +3,18 @@ import config from '~/config'
 export const MENU_ITEMS = [
     {
         title: 'TRANG CHỦ',
+        id: 'home',
         to: config.routes.home,
     },
     {
         title: 'GIỚI THIỆU',
-        to: config.routes.introduce,
+        id: 'introduce',
+        to: config.routes.home,
+        // to: config.routes.introduce,
     },
     {
         title: 'ĐIỂM ĐẾN',
+        id: 'destination',
         to: config.routes.destination,
         children: {
             data: [
@@ -47,6 +51,7 @@ export const MENU_ITEMS = [
     },
     {
         title: 'TIN TỨC',
+        id: 'news',
         to: config.routes.news,
         children: {
             data: [
@@ -63,6 +68,8 @@ export const MENU_ITEMS = [
     },
     {
         title: 'LIÊN HỆ',
-        to: config.routes.contact,
+        id: 'contact',
+        to: config.routes.home,
+        // to: config.routes.contact,
     },
 ]

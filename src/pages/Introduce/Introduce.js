@@ -7,7 +7,12 @@ import styles from './Introduce.module.scss'
 const cx = classNames.bind(styles)
 
 function Introduce() {
-    return <div className={cx('wrapper')}></div>
+    return (
+        <div className={cx('wrapper')}>
+            <h1>Introduce</h1>
+            <p>This is the Introduce page</p>
+        </div>
+    )
 }
 
 export default Introduce

@@ -19,9 +19,9 @@ function Header() {
                 <Search />
             </div>
             <div className={cx('inner')}>
-                <div className={cx('logo-link')}>
+                <div className={cx('logo')}>
                     <Image
-                        className={cx('logo')}
+                        className={cx('logo-img')}
                         src="https://thumbs.dreamstime.com/z/travel-logo-vector-illustration-black-airplane-travel-logo-vector-illustration-black-airplane-isolated-white-115729196.jpg?w=768"
                         alt="Travel"
                     />

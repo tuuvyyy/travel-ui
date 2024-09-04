@@ -1,5 +1,6 @@
 .wrapper {
     --top-value: 0px;
+    margin-top: var(--default-layout-header-height);
 }
 
 .menu-item {

@@ -7,10 +7,19 @@ import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 import { Wrapper as PopperWrapper } from '~/components/Popper'
 import styles from './Menu.module.scss'
 import { MENU_ITEMS } from '~/layouts/components/Menu'
+import Button from '~/components/Button'
 
 const cx = classNames.bind(styles)
 
 function Menu() {
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id)
+
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' })
+        }
+    }
+
     const renderMenuChildren = (props, index) => {
         return (
             <div tabIndex="-1" {...props}>
@@ -32,9 +41,14 @@ function Menu() {
             return (
                 <div key={index}>
                     {!isParent ? (
-                        <NavLink className={(nav) => cx('menu-item', { active: nav.isActive })} to={item.to}>
+                        <Button
+                            text
+                            className={(nav) => cx('menu-item', { active: nav.isActive })}
+                            to={item.to}
+                            onClick={() => scrollToSection(item.id)}
+                        >
                             <span className={cx('item-title')}>{item.title}</span>
-                        </NavLink>
+                        </Button>
                     ) : (
                         <Tippy
                             interactive

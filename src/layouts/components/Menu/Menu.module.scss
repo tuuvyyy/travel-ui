@@ -3,17 +3,21 @@
 }
 
 .menu-item {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    padding: 12px;
-    font-style: 1.8rem;
+    justify-content: center;
+    min-width: 100px;
+    padding: 9px 16px;
+    border-radius: 4px;
+    font-size: 1.6rem;
     font-weight: 700;
     color: var(--gray-blue);
+    border: 1px solid transparent;
 
     cursor: pointer;
 
     &.active {
-        color: var(--primary);
+        color: var(--gray-blue);
     }
 
     &:hover {

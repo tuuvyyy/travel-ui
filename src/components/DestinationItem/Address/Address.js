@@ -19,9 +19,7 @@ function Address() {
                 />
                 <div className={cx('address')}>
                     <FontAwesomeIcon className={cx('address-icon')} icon={faLocationDot} />
-                    <span>
-                        Số 4, ngõ 565, đường Trần Phú, thị trấn Lương Sơn, huyện Lương Sơn, tỉnh Hòa Bình, Việt Nam
-                    </span>
+                    <span>Đường Trần Phú, thị trấn Lương Sơn, huyện Lương Sơn, tỉnh Hòa Bình, Việt Nam</span>
                 </div>
             </div>
             <div className={cx('item', 'nearby')}>

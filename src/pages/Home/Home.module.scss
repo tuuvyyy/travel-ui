@@ -1,10 +1,13 @@
 .wrapper {
     --top-value: 0px;
+}
+
+.home {
     position: relative;
     background-image: var(--background-image-url);
     background-size: cover;
     width: 100%;
-    height: var(--default-layout-container-height);
+    min-height: var(--default-layout-container-height);
 }
 
 .menu {

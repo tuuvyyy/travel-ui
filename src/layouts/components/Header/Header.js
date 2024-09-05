@@ -1,9 +1,12 @@
 import classNames from 'classnames/bind'
+import { Link } from 'react-router-dom'
 
 import Search from '~/layouts/components/Search'
-import styles from './Header.module.scss'
 import Menu from '~/layouts/components/Menu'
 import Image from '~/components/Image'
+import styles from './Header.module.scss'
+
+import config from '~/config'
 
 const cx = classNames.bind(styles)
 
@@ -13,8 +16,12 @@ function Header() {
             <div className={cx('header')}>
                 <p>
                     <span className={cx('header-item')}>Chào mừng bạn đến với du lịch Lương Sơn</span>
-                    <span className={cx('header-item')}>Đăng nhập</span>
-                    <span className={cx('header-item')}>Đăng ký</span>
+                    <Link className={cx('header-item')} to={config.routes.login}>
+                        Đăng nhập
+                    </Link>
+                    {/* <Link className={cx('header-item')} to={config.routes.register}>
+                        Đăng ký
+                    </Link> */}
                 </p>
                 <Search />
             </div>

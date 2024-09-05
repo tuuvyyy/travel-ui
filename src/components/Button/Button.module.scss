@@ -47,7 +47,7 @@
 }
 
 .primary {
-    color: var(--white);
+    color: var(--button-primary-color);
     background-color: var(--primary);
     border-color: var(--primary);
 
@@ -58,7 +58,8 @@
 }
 
 .outline {
-    color: var(--primary);
+    color: var(--button-outline-color);
+    background-color: var(--button-background-colorless--colorless);
     border-color: currentColor;
 
     &:hover {
@@ -68,7 +69,8 @@
 }
 
 .text {
-    color: var(--gray-blue);
+    color: var(--button-text-color);
+    background-color: var(--button-background-colorless);
 
     &:hover {
         text-decoration: underline;

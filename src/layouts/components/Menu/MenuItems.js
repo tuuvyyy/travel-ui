@@ -66,10 +66,10 @@ export const MENU_ITEMS = [
             ],
         },
     },
-    {
-        title: 'LIÊN HỆ',
-        id: 'contact',
-        to: config.routes.home,
-        // to: config.routes.contact,
-    },
+    // {
+    //     title: 'LIÊN HỆ',
+    //     id: 'contact',
+    //     to: config.routes.home,
+    //     // to: config.routes.contact,
+    // },
 ]

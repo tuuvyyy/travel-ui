@@ -1,6 +1,6 @@
 const routes = {
     home: '/',
-    introduce: '/introduce',
+    login: '/login',
     destination: '/destination',
     destinationInfo: '/destination/:id',
     news: '/news',

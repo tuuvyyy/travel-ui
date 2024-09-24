@@ -27,14 +27,14 @@
     height: var(--default-layout-header-welcom-height);
     align-items: center;
     justify-content: space-between;
-    color: var(--white);
-    background-color: var(--gray-blue);
+    color: var(--text-color);
+    background-color: var(--primary);
     font-size: 1.2rem;
     font-weight: 400;
 }
 
 .header-item {
-    color: var(--white);
+    color: var(--text-color);
 }
 
 .header-item + .header-item {

@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--footer-background-color);
+    color: var(--white);
+    width: 100%;
+    min-height: 350px;
+    padding: 50px 100px;
+}
+
+.about {
+    width: 20%;
+}
+
+.social-container {
+    margin: 20px 0;
+}
+
+.social {
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    height: 30px;
+    width: 30px;
+}
+
+.contact {
+    width: 35%;
+}
+
+.contact-item {
+    margin-top: 20px;
+}

@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import classNames from 'classnames/bind'
 import Header from '~/layouts/components/Header'
+import Footer from '~/layouts/components/Footer'
 import Sidebar from '~/layouts/components/Sidebar'
 import styles from './SidebarLayout.module.scss'
 
@@ -14,6 +15,7 @@ function SidebarLayout({ children }) {
                 <Sidebar />
                 <div className={cx('content')}>{children}</div>
             </div>
+            <Footer />
         </div>
     )
 }
